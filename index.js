@@ -89,7 +89,8 @@ app.listen(3000, () => {
     });
 
 
-    mongoose.connect('mongodb+srv://madusquare:BI2vfOOXnM1H3vk7@backenddb.qymtuwl.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB')
+    // Insert your MongoDB Credentials Here 
+mongoose.connect('mongodb+srv://username:password@xxx')
   .then(() => {
         console.log("Connected to the Database!");
 
